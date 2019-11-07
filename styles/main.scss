@@ -1,0 +1,26 @@
+@import "partials/variables";
+
+body {
+
+    font-family:$font_family;
+}
+
+h1 {
+    color:$primary_font_color;
+
+}
+
+footer {
+    color:$primary_font_color;
+}
+
+@mixin btn {
+    background:navy;
+    color:white;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 10px;
+}
+.primary.btn {
+  @include btn;
+}
