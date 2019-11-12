@@ -2,7 +2,7 @@
 
 body {
 
-    font-family:$font_family;
+    font-family:$font_primary;
 }
 
 h1 {
@@ -23,4 +23,17 @@ footer {
 }
 .primary.btn {
   @include btn;
+
+}
+// Medium screens and up
+@media (min-width: 768px){
+    .container {
+        background-color: yellow;
+    }
+}
+// Big screens 
+@media (min-width: 1024px) {
+    .container {
+        background-color: navy;
+    }
 }
