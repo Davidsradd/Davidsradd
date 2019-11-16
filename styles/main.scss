@@ -1,39 +1,26 @@
+@import "vendor/normalize";
+@import "partials/variables";
 @import "partials/variables";
 
-body {
-
-    font-family:$font_primary;
+h2,h3,h4,h6 {color:black;
+    font-family:'Mate', serif;
+    font-size:20px;
+}
+h1,h5{color:#480074;
+font-family:'Acme', sans-serif;
+font-size:40px;
 }
 
-h1 {
-    color:$primary_font_color;
-
+.main-hero{
+    min-height: 60vh;
+    background-image: url("../assets/images/charles-K4mSJ7kc0As-unsplash.jpg")
+    background-size cover;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-footer {
-    color:$primary_font_color;
-}
-
-@mixin btn {
-    background:navy;
-    color:white;
-    border-radius: 5px;
-    font-size: 20px;
-    padding: 10px;
-}
-.primary.btn {
-  @include btn;
-
-}
-// Medium screens and up
-@media (min-width: 768px){
-    .container {
-        background-color: yellow;
-    }
-}
-// Big screens 
-@media (min-width: 1024px) {
-    .container {
-        background-color: navy;
-    }
-}
+.heading{
+    margin-bottom: 200px;
+    text-align: center;}

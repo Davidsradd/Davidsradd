@@ -1,16 +1,21 @@
-h1 {
-  color: darkred;
+h2,h3,h4,h6{color:black; 
+display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size:20px;
+  font-family: 'Mate', serif;
+}
+h1,h5{color:#480074; 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+ font-size: 35px;
+font-family: 'Acme', sans-serif;}
+
+.pug-in {width:700px;
+  justify-content: center;
 }
 
-footer {
-  color: darkred;
-}
-
-.primary.btn {
-  background: navy;
-  color: white;
-  border-radius: 5px;
-  font-size: 20px;
-  padding: 10px;
-}
 /*# sourceMappingURL=main.css.map */
