@@ -343,6 +343,16 @@ template {
   display: none;
 }
 
+h1, h5 {
+  color: purple;
+  font-family: "Acme", sans-serif;
+}
+
+h4, h6, h2, h3 {
+  color: black;
+  font-family: "Mate", serif;
+}
+
 .main-hero {
   min-height: 60vh;
   background-image: url("../assets/images/charles-K4mSJ7kc0As-unsplash.jpg") background-size cover;
@@ -381,5 +391,39 @@ template {
 .second {
   margin-bottom: 200px;
   text-align: center;
+}
+
+.container {
+  display: -ms-grid;
+  display: grid;
+  grid-gap: 20px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+      grid-template-areas: "header sidebar" "redish bottom";
+}
+
+.first {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  grid-area: header;
+}
+
+.second {
+  -ms-grid-row: 1;
+  -ms-grid-column: 2;
+  grid-area: sidebar;
+}
+
+.third {
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+  grid-area: redish;
+}
+
+.fourth {
+  -ms-grid-row: 2;
+  -ms-grid-column: 2;
+  grid-area: bottom;
 }
 /*# sourceMappingURL=main.css.map */
