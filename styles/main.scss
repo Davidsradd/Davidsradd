@@ -23,8 +23,22 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
   
 .heading{
     margin-bottom: 200px;
     text-align: center;}
+
+.second-hero { min-height: 60vh;
+  background-image: url("../assets/images/charles-K4mSJ7kc0As-unsplash.jpg")
+  background-size cover;
+  background-position: center center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.second{
+  margin-bottom: 200px;
+    text-align: center;
+}
