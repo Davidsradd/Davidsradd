@@ -1,15 +1,19 @@
-@import "vendor/normalize";
-@import "partials/variables";
+@import "vendors/normalize";
 @import "partials/variables";
 
-h2,h3,h4,h6 {color:black;
-    font-family:'Mate', serif;
-    font-size:20px;
-}
-h1,h5{color:#480074;
-font-family:'Acme', sans-serif;
-font-size:40px;
-}
+// Medium screens and up
+// @media (min-width: 768px) {
+//     .container {
+//       background-color: yellow;
+//     }
+//   }
+//   // Big screens
+//   @media (min-width: 1024px) {
+//     .container {
+//       background-color: navy;
+//     }
+//   }
+
 
 .main-hero{
     min-height: 60vh;
@@ -20,7 +24,7 @@ font-size:40px;
     justify-content: center;
     align-items: center;
 }
-
+  
 .heading{
     margin-bottom: 200px;
     text-align: center;}
