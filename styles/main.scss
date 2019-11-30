@@ -51,7 +51,8 @@ font-family: $primary_font;}
   display: grid;
   grid-gap: 20px;
  
-  
+  grid-column-start: 1;
+  grid: column end 3;
   justify-content: center;
 
   grid-template-areas: "header sidebar"
@@ -68,4 +69,36 @@ font-family: $primary_font;}
 }
 .fourth {
   grid-area: bottom;
+}
+
+.transition {
+  width:200px;
+  height:300px;
+  background-color:red;
+}
+
+.transition:hover {
+  background-color:blueviolet;
+}
+.transition{
+  transition-property: background-color;
+  transition-duration: .5s;
+  transition-timing-function: ease-in-out;
+}
+
+.element {
+  width: 200px;
+  height: 200px;
+  animation: squaretocircle 3s infinite;
+  background: #7C0C84;
+}
+@keyframes squaretocircle {
+  0% {
+    transform: rotate(0deg);
+    border-radius: 0;
+  }
+  100% {
+    transform: rotate(90deg);
+    border-radius: 50%;
+  }
 }
