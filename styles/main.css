@@ -350,7 +350,7 @@ h1, h5 {
 
 h4, h6, h2, h3 {
   color: black;
-  font-family: "Mate", serif;
+  font-family: "Acme", sans-serif;
 }
 
 .main-hero {
@@ -389,7 +389,7 @@ h4, h6, h2, h3 {
 }
 
 .second {
-  margin-bottom: 200px;
+  margin-bottom: 100px;
   text-align: center;
 }
 
@@ -430,18 +430,18 @@ h4, h6, h2, h3 {
   grid-area: bottom;
 }
 
-.transition {
+transition {
   width: 210px;
   height: 120px;
   background-color: indianred;
 }
 
-.transition:hover {
+transition:hover {
   width: 1440px;
   background-color: navy;
 }
 
-.transition {
+transition {
   -webkit-transition-property: width;
   transition-property: width;
   -webkit-transition-duration: .5s;
@@ -450,7 +450,7 @@ h4, h6, h2, h3 {
           transition-timing-function: ease-in-out;
 }
 
-.element {
+element {
   width: 200px;
   height: 500px;
   -webkit-animation: squaretocircle 3s infinite;
@@ -494,5 +494,15 @@ h4, h6, h2, h3 {
             transform: rotate(1000deg);
     border-radius: 50%;
   }
+}
+
+.container_row {
+  width: 1440px;
+  height: 200px;
+  background-color: red;
+}
+
+body {
+  background-color: rgba(252, 177, 17, 0.925);
 }
 /*# sourceMappingURL=main.css.map */

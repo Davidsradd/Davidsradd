@@ -5,7 +5,7 @@
 h1,h5{color:purple;
 font-family: $special_font;}
 h4,h6,h2,h3 {color:black;
-font-family: $primary_font;}
+font-family: $special_font;}
 
 .main-hero{
     min-height: 60vh;
@@ -29,9 +29,10 @@ font-family: $primary_font;}
   display: flex;
   justify-content: center;
   align-items: center;
+  
 }
 .second{
-  margin-bottom: 200px;
+  margin-bottom: 100px;
     text-align: center;
 }
 
@@ -59,23 +60,23 @@ font-family: $primary_font;}
   grid-area: bottom;
 }
 
-.transition {
+transition {
   width: 210px; 
   height: 120px;
   background-color: indianred;
 }
 
-.transition:hover {
+transition:hover {
   width: 1440px; 
   background-color: navy;
 }
-.transition{
+transition{
   transition-property: width;
   transition-duration: .5s;
   transition-timing-function: ease-in-out;
 }
 
-.element {
+element {
   width: 200px;
   height: 500px;
   animation: squaretocircle 3s infinite;
@@ -97,3 +98,10 @@ font-family: $primary_font;}
     border-radius: 50%;
   }
 }
+.container_row {
+  width: 1440px;
+  height: 200px;
+  background-color:red;
+}
+
+body{ background-color: rgba(252, 177, 17, 0.925);}
