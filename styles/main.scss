@@ -2,7 +2,7 @@
 @import "partials/variables";
 
 
-h1,h5{color:purple;
+h5{color:purple;
 font-family: $special_font;}
 h4,h6,h2,h3 {color:black;
 font-family: $special_font;}
@@ -98,10 +98,18 @@ element {
     border-radius: 50%;
   }
 }
-.container_row {
-  width: 1440px;
-  height: 200px;
-  background-color:red;
+
+.tittle {
+  color:green;
+  font-weight: bolder;
+  
+  font-size: large;
+}
+
+.red{
+  color: red;
 }
 
 body{ background-color: rgba(252, 177, 17, 0.925);}
+
+

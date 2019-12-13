@@ -5,8 +5,8 @@
  * 1. Correct the line height in all browsers.
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
-@import url("https;//fonts.googleapis.com/css?family=Mate&display=swap");
-@import url("https;//fonts.googleapis.com/css?family=Acme&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Mate&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Acme&display=swap");
 html {
   line-height: 1.15;
   /* 1 */
@@ -496,10 +496,14 @@ element {
   }
 }
 
-.container_row {
-  width: 1440px;
-  height: 200px;
-  background-color: red;
+.tittle {
+  color: green;
+  font-weight: bolder;
+  font-size: large;
+}
+
+.red {
+  color: red;
 }
 
 body {
