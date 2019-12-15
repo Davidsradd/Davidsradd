@@ -2,28 +2,13 @@
 @import "partials/variables";
 
 
-h5{color:purple;
+h1,h4 {color:rgb(18, 67, 95);
 font-family: $special_font;}
-h4,h6,h2,h3 {color:black;
-font-family: $special_font;}
+h5,h6,h2,h3 {color:black;
+font-family: $primary_font;}
 
-.main-hero{
-    min-height: 60vh;
-    background-image: url("../assets/images/charles-K4mSJ7kc0As-unsplash.jpg")
-    background-size cover;
-    background-position: center center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
-}
-  
-.heading{
-    margin-bottom: 200px;
-    text-align: center;}
-
-.second-hero { min-height: 60vh;
-  background-image: url("../assets/images/charles-K4mSJ7kc0As-unsplash.jpg")
+.second-hero { 
+  background-image: url("../assets/images/baby\ huskie.jpg")
   background-size cover;
   background-position: center center;
   display: flex;
@@ -32,84 +17,54 @@ font-family: $special_font;}
   
 }
 .second{
-  margin-bottom: 100px;
+  margin-bottom: 0px;
     text-align: center;
 }
 
-.container{
-  display: grid;
-  grid-gap: 20px;
+
+
  
-  grid-column-start: 1;
-  grid: column end 3;
-  justify-content: center;
 
-  grid-template-areas: "header sidebar"
-                       "redish bottom"
-           
-}     
-.first { 
-  grid-area: header;
-}
-.second { 
-  grid-area: sidebar;
-}
-.third { grid-area: redish;
-}
-.fourth {
-  grid-area: bottom;
-}
 
-transition {
-  width: 210px; 
-  height: 120px;
-  background-color: indianred;
-}
 
-transition:hover {
-  width: 1440px; 
-  background-color: navy;
-}
-transition{
-  transition-property: width;
-  transition-duration: .5s;
-  transition-timing-function: ease-in-out;
-}
 
-element {
-  width: 200px;
-  height: 500px;
-  animation: squaretocircle 3s infinite;
-  background: green;
-  align-content: center;
-}
-@keyframes squaretocircle {
-  0% {
-    transform: rotate(0deg);
-    border-radius: -80%;
-  }
-  50%{
-    transform: rotate(-1000deg);
-    border-radius: 0%;
-    
-  }
-  100% {
-    transform: rotate(1000deg);
-    border-radius: 50%;
-  }
-}
 
-.tittle {
-  color:green;
-  font-weight: bolder;
+
+body{background-color:#add3f0}
+body{color:black;}
+
+
+
+
+
   
-  font-size: large;
-}
 
-.red{
-  color: red;
-}
+  .footer{
+    background:#e9ecef;
+    color:black;
+    height:400px;
+    position:relative;
+  }
 
-body{ background-color: rgba(252, 177, 17, 0.925);}
+  .footer .footer-bottom {
+    background: blueviolet;
+    color:black;
+    height:20px;
+    width:100%;
+    text-align:center;
+    position:absolute;
+    bottom:0px;
+    left:0px;
+    padding-top:20px;
+  }
 
+  .footer .footer-content{
+    display:flex;
+    border: 1px solid black;
+    height:450px;
+  }
 
+  .footer .footer-content .footer-section{
+    flex:1;
+    padding:15px;
+  }

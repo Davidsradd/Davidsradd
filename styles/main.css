@@ -343,39 +343,18 @@ template {
   display: none;
 }
 
-h1, h5 {
-  color: purple;
+h1, h4 {
+  color: #12435f;
   font-family: "Acme", sans-serif;
 }
 
-h4, h6, h2, h3 {
+h5, h6, h2, h3 {
   color: black;
-  font-family: "Acme", sans-serif;
-}
-
-.main-hero {
-  min-height: 60vh;
-  background-image: url("../assets/images/charles-K4mSJ7kc0As-unsplash.jpg") background-size cover;
-  background-position: center center;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.heading {
-  margin-bottom: 200px;
-  text-align: center;
+  font-family: "Mate", serif;
 }
 
 .second-hero {
-  min-height: 60vh;
-  background-image: url("../assets/images/charles-K4mSJ7kc0As-unsplash.jpg") background-size cover;
+  background-image: url("../assets/images/baby huskie.jpg") background-size cover;
   background-position: center center;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -389,124 +368,49 @@ h4, h6, h2, h3 {
 }
 
 .second {
-  margin-bottom: 100px;
+  margin-bottom: 0px;
   text-align: center;
 }
 
-.container {
-  display: -ms-grid;
-  display: grid;
-  grid-gap: 20px;
-  -ms-grid-column: 1;
-      grid-column-start: 1;
-  grid: column end 3;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-      grid-template-areas: "header sidebar" "redish bottom";
-}
-
-.first {
-  -ms-grid-row: 1;
-  -ms-grid-column: 1;
-  grid-area: header;
-}
-
-.second {
-  -ms-grid-row: 1;
-  -ms-grid-column: 2;
-  grid-area: sidebar;
-}
-
-.third {
-  -ms-grid-row: 2;
-  -ms-grid-column: 1;
-  grid-area: redish;
-}
-
-.fourth {
-  -ms-grid-row: 2;
-  -ms-grid-column: 2;
-  grid-area: bottom;
-}
-
-transition {
-  width: 210px;
-  height: 120px;
-  background-color: indianred;
-}
-
-transition:hover {
-  width: 1440px;
-  background-color: navy;
-}
-
-transition {
-  -webkit-transition-property: width;
-  transition-property: width;
-  -webkit-transition-duration: .5s;
-          transition-duration: .5s;
-  -webkit-transition-timing-function: ease-in-out;
-          transition-timing-function: ease-in-out;
-}
-
-element {
-  width: 200px;
-  height: 500px;
-  -webkit-animation: squaretocircle 3s infinite;
-          animation: squaretocircle 3s infinite;
-  background: green;
-  -ms-flex-line-pack: center;
-      align-content: center;
-}
-
-@-webkit-keyframes squaretocircle {
-  0% {
-    -webkit-transform: rotate(0deg);
-            transform: rotate(0deg);
-    border-radius: -80%;
-  }
-  50% {
-    -webkit-transform: rotate(-1000deg);
-            transform: rotate(-1000deg);
-    border-radius: 0%;
-  }
-  100% {
-    -webkit-transform: rotate(1000deg);
-            transform: rotate(1000deg);
-    border-radius: 50%;
-  }
-}
-
-@keyframes squaretocircle {
-  0% {
-    -webkit-transform: rotate(0deg);
-            transform: rotate(0deg);
-    border-radius: -80%;
-  }
-  50% {
-    -webkit-transform: rotate(-1000deg);
-            transform: rotate(-1000deg);
-    border-radius: 0%;
-  }
-  100% {
-    -webkit-transform: rotate(1000deg);
-            transform: rotate(1000deg);
-    border-radius: 50%;
-  }
-}
-
-.tittle {
-  color: green;
-  font-weight: bolder;
-  font-size: large;
-}
-
-.red {
-  color: red;
+body {
+  background-color: #add3f0;
 }
 
 body {
-  background-color: rgba(252, 177, 17, 0.925);
+  color: black;
+}
+
+.footer {
+  background: #e9ecef;
+  color: black;
+  height: 400px;
+  position: relative;
+}
+
+.footer .footer-bottom {
+  background: blueviolet;
+  color: black;
+  height: 20px;
+  width: 100%;
+  text-align: center;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  padding-top: 20px;
+}
+
+.footer .footer-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border: 1px solid black;
+  height: 450px;
+}
+
+.footer .footer-content .footer-section {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  padding: 15px;
 }
 /*# sourceMappingURL=main.css.map */
